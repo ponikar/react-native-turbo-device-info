@@ -42,5 +42,14 @@
       "json",
       "node"
     ]
+  },
+  "codegenConfig": {
+    "libraries": [
+      {
+        "name": "MyDeviceInfo",
+        "type": "modules",
+        "jsSrcsDir": "./js"
+      }
+    ]
   }
 }
