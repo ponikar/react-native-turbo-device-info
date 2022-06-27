@@ -45,6 +45,7 @@
 		5DCACB8F33CDC322A6C60F78 /* libPods-DeviceTurbo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-DeviceTurbo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		81AB9BB72411601600AC10FF /* LaunchScreen.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; name = LaunchScreen.storyboard; path = DeviceTurbo/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		89C6BE57DB24E9ADA2F236DE /* Pods-DeviceTurbo-DeviceTurboTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DeviceTurbo-DeviceTurboTests.release.xcconfig"; path = "Target Support Files/Pods-DeviceTurbo-DeviceTurboTests/Pods-DeviceTurbo-DeviceTurboTests.release.xcconfig"; sourceTree = "<group>"; };
+		ADAF7A4B2869979A00807620 /* EnvironmentUtil.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = EnvironmentUtil.h; sourceTree = "<group>"; };
 		ADBCB374286848F500FA6F05 /* MyDeviceInfo-generated.mm */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.cpp.objcpp; name = "MyDeviceInfo-generated.mm"; path = "build/generated/ios/MyDeviceInfo/MyDeviceInfo-generated.mm"; sourceTree = "<group>"; };
 		ADBCB375286848F500FA6F05 /* MyDeviceInfo.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = MyDeviceInfo.h; path = build/generated/ios/MyDeviceInfo/MyDeviceInfo.h; sourceTree = "<group>"; };
 		ADBCB37928684B6500FA6F05 /* MyDeviceInfo.mm */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.objcpp; path = MyDeviceInfo.mm; sourceTree = "<group>"; };
@@ -157,6 +158,7 @@
 			isa = PBXGroup;
 			children = (
 				ADBCB37928684B6500FA6F05 /* MyDeviceInfo.mm */,
+				ADAF7A4B2869979A00807620 /* EnvironmentUtil.h */,
 			);
 			path = MyDeviceInfo;
 			sourceTree = "<group>";
